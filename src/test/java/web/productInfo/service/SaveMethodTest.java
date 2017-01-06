@@ -26,18 +26,12 @@ public class SaveMethodTest {
     @InjectMocks
     private ProductEntityService productEntityService = new ProductEntityServiceImpl();
 
-
-
     @Test
     public void save() throws Exception {
 
         ProductEntity productEntityTest = new ProductEntity(1, "Apple", null, 2.3);
-
         productEntityService.save(productEntityTest);
-
         assertNotNull(productEntityTest.getTimestamp_ex());
-
         verify(productEntityService, times(1)).save(productEntityTest);
-
     }
 }

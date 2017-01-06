@@ -45,14 +45,11 @@ public class ProductEntityServiceImplTest {
         verify(productEntityService, times(1)).findAllByTimestamp(Timestamp.valueOf("2017-01-06 00:59:44"));
     }
 
-
     @Test
     public void delete() throws Exception {
 
         ProductEntity productEntityTest = new ProductEntity(1, "Apple", null, 2.3);
-
         productEntityService.delete(productEntityTest);
-
         verify(productEntityService, times(1)).delete(productEntityTest);
 
     }

@@ -29,7 +29,7 @@ public class ProductController {
 
     @RequestMapping(value = "/actual_price", method = RequestMethod.GET)
     @ResponseBody
-    public String  getReportActualPrice() {
+    public String getReportActualPrice() {
 
         return productEntityService.findAllByTimestamp(Timestamp.valueOf("2017-01-06 00:59:44")).toString();
     }

@@ -28,9 +28,7 @@ public class ProductEntityServiceImpl implements ProductEntityService {
             if (productEntity.getProductname().equals(name)) {
                 productEntitiesByName.add(productEntity);
             }
-
         }
-
         return productEntitiesByName;
     }
 
@@ -45,7 +43,6 @@ public class ProductEntityServiceImpl implements ProductEntityService {
                 productEntitiesByTimestamp.add(productEntity);
             }
         }
-
         return productEntitiesByTimestamp;
     }
 
@@ -54,7 +51,6 @@ public class ProductEntityServiceImpl implements ProductEntityService {
 
         productEntity.setTimestamp_ex(new Timestamp(System.currentTimeMillis()));
         productRepository.save(productEntity);
-
     }
 
     @Override

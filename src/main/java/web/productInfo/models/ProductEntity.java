@@ -8,7 +8,7 @@ import java.sql.Timestamp;
  */
 
 @Entity
-@Table (name = "Products")
+@Table(name = "Products")
 public class ProductEntity {
 
     private int id;
@@ -27,8 +27,8 @@ public class ProductEntity {
     }
 
     @Id
-    @GeneratedValue (strategy = GenerationType.IDENTITY)
-    @Column (name = "id")
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @Column(name = "id")
     public int getId() {
         return id;
     }
@@ -37,7 +37,7 @@ public class ProductEntity {
         this.id = id;
     }
 
-    @Column (name = "productname")
+    @Column(name = "productname")
     public String getProductname() {
         return productname;
     }
@@ -46,7 +46,7 @@ public class ProductEntity {
         this.productname = productname;
     }
 
-    @Column (name = "timestamp_ex")
+    @Column(name = "timestamp_ex")
     public Timestamp getTimestamp_ex() {
         return timestamp_ex;
     }
@@ -55,7 +55,7 @@ public class ProductEntity {
         this.timestamp_ex = timestamp_ex;
     }
 
-    @Column (name = "price")
+    @Column(name = "price")
     public double getPrice() {
         return price;
     }
