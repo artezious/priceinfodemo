@@ -8,7 +8,6 @@ import web.productInfo.repository.ProductRepository;
 
 import java.sql.Timestamp;
 import java.util.ArrayList;
-import java.util.Date;
 import java.util.List;
 
 /**
@@ -53,7 +52,7 @@ public class ProductEntityServiceImpl implements ProductEntityService {
     @Override
     public void save(ProductEntity productEntity) {
 
-        productEntity.setTimestamp_ex((Timestamp) new Date());
+        productEntity.setTimestamp_ex(new Timestamp(System.currentTimeMillis()));
         productRepository.save(productEntity);
 
     }

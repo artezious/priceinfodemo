@@ -13,7 +13,7 @@ public class ProductEntity {
 
     private int id;
     private String productname;
-    private Timestamp timestamp_ex;//не надо называть колонки также как и сам тип данных
+    private Timestamp timestamp_ex;
     private double price;
 
     public ProductEntity() {
@@ -72,7 +72,7 @@ public class ProductEntity {
         ProductEntity that = (ProductEntity) o;
 
         if (id != that.id) return false;
-        if (price != that.price) return false;
+        if (Double.compare(that.price, price) != 0) return false;
         if (productname != null ? !productname.equals(that.productname) : that.productname != null) return false;
         return timestamp_ex != null ? timestamp_ex.equals(that.timestamp_ex) : that.timestamp_ex == null;
 
