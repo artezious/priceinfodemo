@@ -1,0 +1,15 @@
+insert into Products (id, productname, timestamp_ex, price) values (1, 'Edgewire', '2017-01-05T22:59:44+00:00', 16.95);
+insert into Products (id, productname, timestamp_ex, price) values (2, 'Livepath', '2017-01-05T22:59:44+00:00', 10.73);
+insert into Products (id, productname, timestamp_ex, price) values (3, 'Dynazzy', '2017-01-05T22:59:44+00:00', 13.59);
+insert into Products (id, productname, timestamp_ex, price) values (4, 'Katz', '2017-01-05T22:59:44+00:00', 11.79);
+insert into Products (id, productname, timestamp_ex, price) values (5, 'Tavu', '2017-01-05T22:59:44+00:00', 8.20);
+insert into Products (id, productname, timestamp_ex, price) values (6, 'Jaxnation', '2017-01-05T22:59:44+00:00', 8.17);
+insert into Products (id, productname, timestamp_ex, price) values (7, 'BlogXS', '2017-01-05T22:59:44+00:00', 13.88);
+insert into Products (id, productname, timestamp_ex, price) values (8, 'Tanoodle', '2017-01-05T22:59:44+00:00', 7.42);
+insert into Products (id, productname, timestamp_ex, price) values (9, 'Edgewire', '2017-01-04T22:59:44+00:00', 15.48);
+insert into Products (id, productname, timestamp_ex, price) values (10, 'Livepath', '2017-01-04T22:59:44+00:00', 2.08);
+insert into Products (id, productname, timestamp_ex, price) values (11, 'Dynazzy', '2017-01-04T22:59:44+00:00', 15.10);
+insert into Products (id, productname, timestamp_ex, price) values (12, 'Katz', '2017-01-04T22:59:44+00:00', 8.17);
+insert into Products (id, productname, timestamp_ex, price) values (13, 'Tavu', '2017-01-04T22:59:44+00:00', 12.92);
+insert into Products (id, productname, timestamp_ex, price) values (14, 'Aibox', '2017-01-04T22:59:44+00:00', 3.54);
+insert into Products (id, productname, timestamp_ex, price) values (15, 'Jaxnation', '2017-01-04T22:59:44+00:00', 1.79);
